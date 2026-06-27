@@ -1,0 +1,8 @@
+26.06.27.1742
++ adding a little javascript to double-click to switch full screen ON/OFF.
++ making the HTML use black background and the SVG to be having transparent background/fill. it saves on phone's battery.
+
+26.06.27.1548
++ initial.
+* using CSS to animate with transform, inside the SVG, to be able to use `will-change:transform;` which allow to accelerate rendering.
+* svg must be placed inline to animate (not in `<IMG>` nor in CSS `url()`), and it is still no 100% smooth.

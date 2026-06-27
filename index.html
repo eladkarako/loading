@@ -17,7 +17,7 @@
 <svg viewBox="0 0 200 200" width="min(90vmin, 520px)" height="min(90vmin, 520px)" role="img" aria-label="light-blue circle animation">
   <metadata>
     <custom>
-      <version>26.06.27.1548</version>
+      <version>26.06.27.1742</version>
       <author>Elad Karako</author>
       <license>MIT</license>
     </custom>
@@ -25,6 +25,10 @@
   <title>light-blue circle animation</title>
   <desc>a light-blue circle animation, where the circle gets increased in size for 3 seconds and 500 milliseconds, then decreased in size for 3 seconds and 500 milliseconds, total of 7 seconds for the whole animation. eased in and out. animation usually used for page-loading, or practicing breathing, similar to 'Wim Hof Method'.</desc>
   <style>
+    svg { 
+      background : transparent;
+      fill       : none;
+    }
     .pulseCircle{
       transform-origin : center;
       transform-box    : fill-box;
@@ -39,5 +43,6 @@
   </style>
   <circle class="pulseCircle" cx="100" cy="100" r="10"></circle>
 </svg>
+<script src="index.js" type="text/javascript" charset="UTF-8" ></script>
 </body>
 </html>
