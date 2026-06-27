@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*, *:focus, *:hover, *:active{
+  box-sizing      : border-box;
+  outline         : 0px solid transparent;
+  border          : 0px solid transparent;
+  border-collapse : collapse;
+  border-radius   : 0px;
+}
+
+:root{ z-index:1; }
+body{  z-index:2; }
+img{   z-index:3; }
+
+:root, body, svg{
+  height   : 100%;
+  width    : 100%;
+  padding  : 0px;
+  margin   : 0px;
+}
+
+:root{white-space   : normal;     }
+:root,body{
+      word-break    : normal;
+      overflow-wrap : break-word;
+    /*overflow-wrap : anywhere;*/
+      word-wrap     : break-word;
+    /*line-break    : anywhere;*/
+}
+
+body{ overflow: visible; }
+:root{overflow: hidden;  }
+
+:root{
+  background-color : rgb(255,255,255);
+  color            : lightblue;
+}
